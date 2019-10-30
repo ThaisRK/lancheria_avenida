@@ -1,0 +1,35 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.fundo {
+    background: url(img/hamburger.jpg);
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+    /*espaço que difere a imagem de fundo do quadro escuro transparente com os conteúdos*/
+    padding: 2%;
+}
+
+.fundo2 {
+    background: rgba(10, 34, 41, 0.8);
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#titulo-nav{
+    font-family: 'Press Start 2P', cursive;
+}
+
+#endereco{
+    display: none;
+}
+
+@media screen and (max-width:900px) {
+    /* redimensiona as fontes da página em dispositivos menores */
+    #titulo-nav, #subtitulo-nav, #titulo-corpo{
+    font-size: 150%;
+    }
+
+}
